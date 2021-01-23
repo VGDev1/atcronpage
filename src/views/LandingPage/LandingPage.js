@@ -33,7 +33,7 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="Eslövs Emballage"
+        brand="ATcron AB"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -42,23 +42,20 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter image={require("assets/img/landing-wood.jpg")}>
+      <Parallax filter image={require("assets/img/computer.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Allt i träemballage</h1>
+              <h1 className={classes.title}>Atcron AB</h1>
               <h4>
-                Vi satsar som tidigare nämnt på special emballage och diverse andra produkter i
-                trä och skivmaterial. Jag satsar av förklarliga skäl inte på volym utan vill vara
-                det lilla företaget med stor service och snabba säkra leveranser av enstaka.
-                produkter eller korta serier. Min styrka är stort kunnande om specialemballage och
-                inte minst de krav som ställs på dessa.
+                Vårt fokus att hjälpa företag att genom digitala och elektroniska lösningar effektivisera verksamheten. 
+                Vi erbjuder konsulttjänster, prototypframtagning samt vissa egna produkter.
               </h4>
               <br />
               <Button
                 color="danger"
                 size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
+                href="https://www.youtube.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >

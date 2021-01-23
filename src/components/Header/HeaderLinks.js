@@ -31,26 +31,26 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <Link to="/history" className={classes.listItem}>
+        <Link to="/about" className={classes.listItem}>
           <Button
             href="/#"
             color="transparent"
             target="_blank"
             className={classes.navLink}
           >
-            <HistoryIcon className={classes.icons} /> Historia
+            <HistoryIcon className={classes.icons} /> Om
           </Button>
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-      <Link to="/ispm" className={classes.listItem}>
+      <Link to="/portfolio" className={classes.listItem}>
         <Button
           href="/#"
           color="transparent"
           target="_blank"
           className={classes.navLink}
         >
-          <GavelIcon className={classes.icons} /> ISPM 15
+          <GavelIcon className={classes.icons} /> Produktportfölj
         </Button>
         </Link>
       </ListItem>

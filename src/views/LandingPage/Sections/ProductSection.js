@@ -27,11 +27,7 @@ export default function ProductSection() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Produkter - produktion och försäljning</h2>
           <h5 className={classes.description}>
-            This is the paragraph where you can write more details about your
-            product. Keep you user engaged by providing meaningful information.
-            Remember that by this time, the user is curious, otherwise he wouldn
-            {"'"}t scroll to get here. Add a button if you want the user to see
-            more.
+            Vi erbjuder ett brett antal tjänster finns de du söker inte omnämt här på sidan så tveka inte att höra av dig så återkommer vi.
           </h5>
         </GridItem>
       </GridContainer>
@@ -39,9 +35,8 @@ export default function ProductSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Special och Exportemballage"
-              description="Vi har varit med från början när krav började ställas på virket, först med Sundhetscertifikat som sedermera mynnat ut i standarden ISPM 15, vi kan detta. 
-              Våra lådor skickas till alla världsdelar, och vi ser till att de stämplas på rätt sätt och ivissa fall kompletteras med intyg. Allt vi tillverkar är minst godkänt för ISPM 15."
+              title="Software"
+              description="Vi är specialister på mjukvara, vi är civilingejörer/civilingejörsstudenter inom datateknik och därför kan vi erbjuda ett stort kunnande inom utveckling av mjukvara"
               icon={Filter1Icon}
               iconColor="info"
               vertical
@@ -49,9 +44,8 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Standardemballage"
-              description="Vi har också satsat på att lagerhålla ett sortiment med standard emballage såsom, pallar, pallkragar samt diverse skivor pallock, iläggskivor mm.
-              Vi vänder oss till kunder som vill handla mindre mängder eller enstaka emballage av dessa slag"
+              title="Elektronik"
+              description="Vi har ett stort kunnande inom elektronik och erbjuder därför hjälp att ta fram olika elektroniska lösningar för olika problem"
               icon={Filter2Icon}
               iconColor="success"
               vertical
@@ -59,23 +53,10 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Skivor"
-              description="Under 2000-talet har vi investerat och satsat mycket på skivmaterial och idag tillverkas en hel del produkter av detta slag.
-              Vi sågar mycket i vår moderna skivklyv med stor precision. Olika slags material som lagerförs är Plywood, OSB, HDF, MDF, Board, även massiva träskivor och laminerade produkter.
-              Vi tillverkar också en del inredningsprodukter såsom, köksbänkskivor, mäss inredningar, skjutdörrar, mm mm Under vägen har vi tillsammans med våra kunder sett möjlighet att såga även viss plast och t ex plexiglas med mycket bra resultat."
+              title="Prototyper"
+              description="Vi har under det gångna året satsat mycket på inköp av diverse maskiner för att kunna erbjuda hjälp med kompletta prototyper, vi erbjuder 3d utskrifter, PCB:er samt montering av diverse elektronik."
               icon={Filter3Icon}
               iconColor="danger"
-              vertical
-            />
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
-              title="Övrigt"
-              description="Vår produktion ligger nära besläktad med vanligt snickeri och byggnation varvid en del tillverkning även på detta område utförs. 
-              Kan nämna produkter såsom, grindar, staket, bodar, lekstugor, Friggebodar, inredningar på lager Mobilhotell, mm.
-              Dessa produkter får tillverkas i mån av tid och inte sällan har vi lite ont om just den varan."
-              icon={Filter4Icon}
-              iconColor="primary"
               vertical
             />
           </GridItem>
