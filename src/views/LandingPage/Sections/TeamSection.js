@@ -75,7 +75,7 @@ export default function TeamSection() {
                 <img src={team2} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Thomas Thure
+                Jakob Westergården
                 <br />
                 <small className={classes.smallTitle}>Ägare-CTO</small>
               </h4>
