@@ -28,7 +28,7 @@ export default function LandingPage(props) {
       <Header
         color="white"
         routes={dashboardRoutes}
-        brand="Eslövs Emballage"
+        brand="ATcron AB"
         rightLinks={<HeaderLinks />}
         fixed
         {...rest}

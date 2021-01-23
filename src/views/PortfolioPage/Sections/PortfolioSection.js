@@ -21,17 +21,7 @@ export default function ProductSection() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Produktportfölj</h2>
           <h5 className={classes.description}>
-          Ismp är en standard som är till för att underlätta global handel med träemballage. 
-          Standarden fastslår behandling av trä för att döda alla eventuella skadeinsekter som annars kan spridas.
-          </h5>
-          <h5 className={classes.description}>
-          För närvarande gäller att för handel inom EU finns inga krav. Utanför EU skall dock allt träemballage var godkänt enligt ISPM 15.
-          </h5>
-          <h5 className={classes.description}>
-          <u> Tag kontakt med oss för att få utförliga beskrivningar om ISPM 15 </u>
-          </h5>
-          <h5 className={classes.description}>
-          Det senaste inom ISPM 15 hittar du också på jordbruksverkets hemsida, se <a href="http://www.jordbruksverket.se/">jordbruksverket.se</a>.
+            Här Github, nån embedded modul kanske.
           </h5>
         </GridItem>
       </GridContainer>

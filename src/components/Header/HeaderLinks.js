@@ -12,8 +12,8 @@ import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import HistoryIcon from '@material-ui/icons/History';
-import GavelIcon from '@material-ui/icons/Gavel';
+import InfoIcon from '@material-ui/icons/Info';
+import WorkIcon from '@material-ui/icons/Work';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
 import MapIcon from '@material-ui/icons/Map';
 
@@ -38,7 +38,7 @@ export default function HeaderLinks(props) {
             target="_blank"
             className={classes.navLink}
           >
-            <HistoryIcon className={classes.icons} /> Om
+            <InfoIcon className={classes.icons} /> Om
           </Button>
         </Link>
       </ListItem>
@@ -50,7 +50,7 @@ export default function HeaderLinks(props) {
           target="_blank"
           className={classes.navLink}
         >
-          <GavelIcon className={classes.icons} /> Produktportfölj
+          <WorkIcon className={classes.icons} /> Produktportfölj
         </Button>
         </Link>
       </ListItem>
@@ -92,7 +92,7 @@ export default function HeaderLinks(props) {
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="https://twitter.com/CreativeTim?ref=creativetim"
+            href="https://twitter.com/"
             target="_blank"
             color="transparent"
             className={classes.navLink}
@@ -110,7 +110,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.facebook.com/CreativeTim?ref=creativetim"
+            href="https://www.facebook.com/"
             target="_blank"
             className={classes.navLink}
           >
@@ -127,7 +127,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+            href="https://www.instagram.com/"
             target="_blank"
             className={classes.navLink}
           >

@@ -33,7 +33,7 @@ export default function Footer(props) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://github.com/VDevAG"
+                href="https://github.com/VGDev1"
                 className={classes.block}
                 target="_blank"
               >
@@ -42,11 +42,11 @@ export default function Footer(props) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://github.com/VDevAG"
+                href="https://github.com/JakobWestergarden"
                 className={classes.block}
                 target="_blank"
               >
-                About me
+                Jakob Westergården
               </a>
             </ListItem>
           </List>
