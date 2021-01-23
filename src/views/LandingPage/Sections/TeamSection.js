@@ -44,7 +44,7 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 Victor Gunnarsson
                 <br />
-                <small className={classes.smallTitle}>Ägare-VG</small>
+                <small className={classes.smallTitle}>Ägare-VD</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
