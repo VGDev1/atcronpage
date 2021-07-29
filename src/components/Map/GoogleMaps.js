@@ -18,7 +18,7 @@ export class GoogleMaps extends Component {
           <div style={{ height: '100vh', width: '100%' }}>
             <GoogleMapReact
                 bootstrapURLKeys={{ 
-                    key: "AIzaSyDiESond1tNLfZxoc1rmoE_ggK8mqd5LWI",
+                    key: "api-key",
                     language: 'sv' 
                 }}
                 defaultCenter={this.props.center}
@@ -27,7 +27,7 @@ export class GoogleMaps extends Component {
                 <AnyReactComponent
                     lat={55.834945}
                     lng={13.308801}
-                    text="Eslövs Emballage"
+                    text="ATcron AB"
                 />
             </GoogleMapReact>
           </div>
