@@ -42,26 +42,15 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter image={require("assets/img/computer.jpg")}>
+      <Parallax filter image={require("assets/img/trading.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>Atcron AB</h1>
               <h4>
-                Vårt fokus att hjälpa företag att genom digitala och elektroniska lösningar effektivisera verksamheten. 
-                Vi erbjuder konsulttjänster, prototypframtagning samt vissa egna produkter.
+                Vårt fokus är att hjälpa traders och investerare att öka sin avkastning samtidigt som de kan minska tiden vid skärmen.
               </h4>
               <br />
-              <Button
-                color="danger"
-                size="lg"
-                href="https://www.youtube.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fas fa-play" />
-                Kolla film
-              </Button>
             </GridItem>
           </GridContainer>
         </div>

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "./static/css/main.2ca17618.chunk.css",
+    "main.js": "./static/js/main.8b72a1d7.chunk.js",
+    "main.js.map": "./static/js/main.8b72a1d7.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.a13d16cb.js",
+    "runtime~main.js.map": "./static/js/runtime~main.a13d16cb.js.map",
+    "static/js/2.5dc5b740.chunk.js": "./static/js/2.5dc5b740.chunk.js",
+    "static/js/2.5dc5b740.chunk.js.map": "./static/js/2.5dc5b740.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.33ef5affe65f01860093ff769a4240af.js": "./precache-manifest.33ef5affe65f01860093ff769a4240af.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.2ca17618.chunk.css.map": "./static/css/main.2ca17618.chunk.css.map",
+    "static/media/Victor-G.png": "./static/media/Victor-G.ecbd8481.png",
+    "static/media/eztv2.png": "./static/media/eztv2.8c2f51d0.png",
+    "static/media/jakob.jpg": "./static/media/jakob.97864953.jpg",
+    "static/media/stocktrading.jpeg": "./static/media/stocktrading.4c91a6bc.jpeg",
+    "static/media/trading.jpg": "./static/media/trading.5777aa90.jpg"
+  }
+}

@@ -25,9 +25,9 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Produkter - produktion och försäljning</h2>
+          <h2 className={classes.title}>Produkter - Software och finans</h2>
           <h5 className={classes.description}>
-            Vi erbjuder ett brett antal tjänster finns de du söker inte omnämt här på sidan så tveka inte att höra av dig så återkommer vi.
+            Vi har en bred kunskap inom software och finans. Vårt huvudfokus ligger just nu på att utveckla automatiska tradingsystem, men kontakta oss ifall ni har andra förslag inom finansbranschen.
           </h5>
         </GridItem>
       </GridContainer>
@@ -35,8 +35,8 @@ export default function ProductSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Software"
-              description="Vi är specialister på mjukvara, vi är civilingejörer/civilingejörsstudenter inom datateknik och därför kan vi erbjuda ett stort kunnande inom utveckling av mjukvara"
+              title="Frontend"
+              description="ATcron har goda kunskaper inom frontendutveckling och skapar alla hemsidor och GUI från grunden, med kundens krav och specifikationer i hänsyn"
               icon={Filter1Icon}
               iconColor="info"
               vertical
@@ -44,8 +44,8 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Elektronik"
-              description="Vi har ett stort kunnande inom elektronik och erbjuder därför hjälp att ta fram olika elektroniska lösningar för olika problem"
+              title="Backend"
+              description="ATcron anställer endast kompetenta personer som är utbildade eller har en pågående utbildning till civilingenjörer i datateknik. Detta gör att det finns oerhört mycket kompetens för backend och software development, samt en djup förståelse för teknisk analys."
               icon={Filter2Icon}
               iconColor="success"
               vertical
@@ -53,8 +53,8 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Prototyper"
-              description="Vi har under det gångna året satsat mycket på inköp av diverse maskiner för att kunna erbjuda hjälp med kompletta prototyper, vi erbjuder 3d utskrifter, PCB:er samt montering av diverse elektronik."
+              title="Finans"
+              description="Ett grundläggande krav för att få arbeta på ATcron är att ha ett genuint och brinnande intresse för aktiehandel samt trading. Flertalet av utvecklarna på ATcron har följt marknaden intensivt under många år och är väl insatta i finansvärlden."
               icon={Filter3Icon}
               iconColor="danger"
               vertical

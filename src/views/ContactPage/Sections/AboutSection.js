@@ -21,10 +21,7 @@ export default function ProductSection() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Om oss</h2>
           <h5 className={classes.description}>
-          ATcron ABs fokus ligger på att utveckla system för att förenkla och automatisera trading.
-          Vi har tillsammans med stora och välrespekterade traders tagit fram individuella lösningar med kundens personliga specifikationer i syfte.
-          Grundarna i ATcron har länge varit intresserade både av aktiehandel och daytrading. Detta kombinerat med goda kunskaper inom IT, automation och programmering gör att ATcron smidigt kan samarbeta och förstå vad kunderna vill ha.
-          Vårt mål är att minska kundens skärmtid och samtidigt öka avkastningen. 
+          För att kontakta oss, vänligen mejla oss på jakob.westergarden@atcron.com eller victor.gunnarsson@atcron.com
 
           </h5>
         </GridItem>

@@ -17,7 +17,7 @@ import styles from "assets/jss/material-kit-react/views/landingPageSections/port
 
 import eztv2 from "assets/img/eztv2.png";
 import watersystem from "assets/img/watersystem.png";
-import trading from "assets/img/trading.jpg";
+import stocktrading from "assets/img/stocktrading.jpeg";
 
 
 const useStyles = makeStyles(styles);
@@ -36,7 +36,7 @@ export default function PortfolioSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={6}>
             <Card plain>
-              <img src={eztv2} alt="..."  />
+              <img src={eztv2} alt="..." width="540" heigth="350" />
               <h4 className={classes.title}>
                 EasyTV
                 <br />
@@ -52,110 +52,26 @@ export default function PortfolioSection() {
                   justIcon
                   color="transparent"
                   className={classes.margin5}
+                  href="https://github.com/VGDev1/EasyTvReact"
                 >
                   <i className={classes.socials + " fab fa-github"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-youtube"} />
                 </Button>
               </CardFooter>
             </Card>
           </GridItem>
           <GridItem xs={12} sm={12} md={6}>
             <Card plain>
-              <img src={watersystem} alt="..."  />
+              <img src={stocktrading} alt="..." width="540" heigth ="350"/>
               <h4 className={classes.title}>
-                EasyTV
+                Avanza robottrading
                 <br />
-                <small className={classes.smallTitle}>För enklare TV.</small>
+                <small className={classes.smallTitle}>Algoritmisk robottrading för Avanzas plattform.</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                EasyTV är ett projekt skapat av Victor Gunnarsson tillsammans med Pontus Sahlenbo. Tanken bakom EasyTV är att skapa en intuitivare variant av svtplay för att lättare kunna hitta populära program och kunna bläddra i alfabetisk ordning.
+                Atcron AB har utvecklat en algoritmisk robottrading för Avanza. Denna tradingplattform har ett enkelt och intuitivt one-page react GUI där användaren smidigt kan ställa in regler och parametrar för olika strategier som ska exekveras.
                 </p>
               </CardBody>
-              <CardFooter className={classes.justifyCenter}>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-github fa-2x"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-youtube"} />
-                </Button>
-              </CardFooter>
-            </Card>
-          </GridItem>
-          <GridItem xs={12} sm={12} md={6}>
-            <Card plain>
-              <img src={eztv2} alt="..."  />
-              <h4 className={classes.title}>
-                EasyTV
-                <br />
-                <small className={classes.smallTitle}>För enklare tv.</small>
-              </h4>
-              <CardBody>
-                <p className={classes.description}>
-                EasyTV är ett projekt skapat av Victor Gunnarsson tillsammans med Pontus Sahlenbo. Tanken bakom EasyTV är att skapa en intuitivare variant av svtplay för att lättare kunna hitta populära program och kunna bläddra i alfabetisk ordning.
-                </p>
-              </CardBody>
-              <CardFooter className={classes.justifyCenter}>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-github"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-youtube"} />
-                </Button>
-              </CardFooter>
-            </Card>
-          </GridItem>
-          <GridItem xs={12} sm={12} md={6}>
-            <Card plain>
-              <img src={eztv2} alt="..."  />
-              <h4 className={classes.title}>
-                EasyTV
-                <br />
-                <small className={classes.smallTitle}>För enklare tv.</small>
-              </h4>
-              <CardBody>
-                <p className={classes.description}>
-                EasyTV är ett projekt skapat av Victor Gunnarsson tillsammans med Pontus Sahlenbo. Tanken bakom EasyTV är att skapa en intuitivare variant av svtplay för att lättare kunna hitta populära program och kunna bläddra i alfabetisk ordning.
-                </p>
-              </CardBody>
-              <CardFooter className={classes.justifyCenter}>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-github"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-youtube"} />
-                </Button>
-              </CardFooter>
             </Card>
           </GridItem>
         </GridContainer>

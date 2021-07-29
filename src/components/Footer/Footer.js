@@ -52,7 +52,7 @@ export default function Footer(props) {
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made by Victor Gunnarsson
+          &copy; {1900 + new Date().getYear()}, made by ATcron AB
         </div>
       </div>
     </footer>

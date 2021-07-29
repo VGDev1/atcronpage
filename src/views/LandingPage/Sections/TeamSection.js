@@ -17,7 +17,7 @@ import CardFooter from "components/Card/CardFooter.js";
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 
 import team1 from "assets/img/faces/Victor-G.png";
-import team2 from "assets/img/faces/Jakob-W.jpg";
+import team2 from "assets/img/faces/jakob.jpg";
 
 
 const useStyles = makeStyles(styles);
@@ -48,7 +48,7 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  Victor Gunnarsson är civilingejörsstudent inom datateknik på LTH. Han har ett mycket stort kunnande inom mjukvara, elektronik och CAD.
+                  Victor Gunnarsson är civilingenjörsstudent inom datateknik på LTH. Victors intresse för finans började redan 2015 och sedan dess har intresset bara växt.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -56,6 +56,7 @@ export default function TeamSection() {
                   justIcon
                   color="transparent"
                   className={classes.margin5}
+                  href="https://twitter.com/victorgg00"
                 >
                   <i className={classes.socials + " fab fa-twitter"} />
                 </Button>
@@ -63,6 +64,7 @@ export default function TeamSection() {
                   justIcon
                   color="transparent"
                   className={classes.margin5}
+                  href="https://www.linkedin.com/in/victor-gunnarsson-765199196/"
                 >
                   <i className={classes.socials + " fab fa-linkedin"} />
                 </Button>
@@ -81,7 +83,7 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  Jakob Westergården är även han civilingejörsstudent inom datateknik. Han har ett mycket stort kunnande inom mjukvara.
+                  Jakob Westergården är även han civilingenjörsstudent inom datateknik. Jakob har senaste åren dedikerat många timmar åt både fundamental och teknisk analys. 
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -89,6 +91,7 @@ export default function TeamSection() {
                   justIcon
                   color="transparent"
                   className={classes.margin5}
+                  href="https://twitter.com/JWestergarden"
                 >
                   <i className={classes.socials + " fab fa-twitter"} />
                 </Button>
@@ -96,6 +99,7 @@ export default function TeamSection() {
                   justIcon
                   color="transparent"
                   className={classes.margin5}
+                  href="https://www.linkedin.com/in/jakob-westerg%C3%A5rden-07157a218/"
                 >
                   <i className={classes.socials + " fab fa-linkedin"} />
                 </Button>

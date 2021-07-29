@@ -18,7 +18,7 @@ import Parallax from "components/Parallax/Parallax.js";
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
 // Sections for this page
-import ContactSection from "./Sections/ContactSection";
+import AboutSection from "./Sections/AboutSection.js";
 
 const dashboardRoutes = [];
 
@@ -37,10 +37,10 @@ export default function LandingPage(props) {
         fixed
         {...rest}
       />
-      <h2>Move down</h2>
+      <h1>Move Down</h1>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          <ContactSection />
+          <AboutSection />
         </div>
       </div>
       <Footer />
