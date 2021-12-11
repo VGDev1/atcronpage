@@ -19,9 +19,9 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Om oss</h2>
+          <h2 className={classes.title}>Kontaka oss</h2>
           <h5 className={classes.description}>
-          För att kontakta oss, vänligen mejla oss på jakob.westergarden@atcron.com eller victor.gunnarsson@atcron.com
+          För att kontakta oss, vänligen mejla oss på jakob.westergarden@atcron.com, victor.gunnarsson@atcron.com eller axel.fossum@atcron.com
 
           </h5>
         </GridItem>

@@ -18,6 +18,7 @@ import styles from "assets/jss/material-kit-react/views/landingPageSections/team
 
 import team1 from "assets/img/faces/Victor-G.png";
 import team2 from "assets/img/faces/jakob.jpg";
+import team3 from "assets/img/faces/axel.jpeg";
 
 
 const useStyles = makeStyles(styles);
@@ -34,7 +35,7 @@ export default function TeamSection() {
       <h2 className={classes.title}>Vilka är vi</h2>
       <div>
         <GridContainer>
-          <GridItem xs={12} sm={12} md={2}>
+          <GridItem xs={12} sm={12} md={-1}>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
@@ -52,14 +53,6 @@ export default function TeamSection() {
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                  href="https://twitter.com/victorgg00"
-                >
-                  <i className={classes.socials + " fab fa-twitter"} />
-                </Button>
                 <Button
                   justIcon
                   color="transparent"
@@ -91,15 +84,34 @@ export default function TeamSection() {
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                  href="https://twitter.com/JWestergarden"
+                  href="https://www.linkedin.com/in/jakob-westerg%C3%A5rden-07157a218/"
                 >
-                  <i className={classes.socials + " fab fa-twitter"} />
+                  <i className={classes.socials + " fab fa-linkedin"} />
                 </Button>
+              </CardFooter>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                <img src={team3} alt="..." className={imageClasses} />
+              </GridItem>
+              <h4 className={classes.cardTitle}>
+                Axel Fossum
+                <br />
+                <small className={classes.smallTitle}>Ägare</small>
+              </h4>
+              <CardBody>
+                <p className={classes.description}>
+                 Axel Fossum är också civilingenjörsstudent inom datateknik. Axel har spenderat stor tid på backendutveckling och även han delar finans-intresset.
+                </p>
+              </CardBody>
+              <CardFooter className={classes.justifyCenter}>
                 <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                  href="https://www.linkedin.com/in/jakob-westerg%C3%A5rden-07157a218/"
+                  href="https://www.linkedin.com/in/axel-fossum-154780176/"
                 >
                   <i className={classes.socials + " fab fa-linkedin"} />
                 </Button>

@@ -44,7 +44,7 @@ export default function PortfolioSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                EasyTV är ett projekt skapat av Victor Gunnarsson tillsammans med Pontus Sahlenbo. Tanken bakom EasyTV är att skapa en intuitivare variant av svtplay för att lättare kunna hitta populära program och kunna bläddra i alfabetisk ordning.
+                EasyTV är ett projekt skapat av Victor Gunnarsson tillsammans med Pontus Salenbo. Tanken bakom EasyTV är att skapa en intuitivare variant av svtplay för att lättare kunna hitta populära program och kunna bläddra i alfabetisk ordning.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>

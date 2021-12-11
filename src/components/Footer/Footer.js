@@ -49,6 +49,15 @@ export default function Footer(props) {
                 Jakob Westergården
               </a>
             </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <a
+                href="https://github.com/axelfossum"
+                className={classes.block}
+                target="_blank"
+              >
+                Axel Fossum
+              </a>
+            </ListItem>
           </List>
         </div>
         <div className={classes.right}>
