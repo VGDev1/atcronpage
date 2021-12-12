@@ -36,7 +36,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Frontend"
-              description="ATcron har goda kunskaper inom frontendutveckling och skapar alla hemsidor och GUI från grunden, med kundens krav och specifikationer i hänsyn"
+              description="ATcron har goda kunskaper inom frontendutveckling och skapar alla hemsidor och GUI från grunden, med kundens krav och specifikationer i fokus"
               icon={Filter1Icon}
               iconColor="info"
               vertical
